@@ -1,0 +1,60 @@
+
+/*fb, twetter, youtube link start*/
+.icons{
+    overflow: hidden;
+    margin-top: 15px;
+    align-content: center;
+}
+.icons ul {
+    margin: 0;
+    padding: 0;
+}
+.icons ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+.icons ul li:last-child{
+    margin-right: 0;
+}
+
+.icons ul li a {
+    background-image: url('image/icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: 1s;
+}
+.icons ul li a:hover {
+    border: 1px solid black;
+}
+.icons ul li:nth-child(1) a {
+    background-position: 0;
+}
+.icons ul li:hover:nth-child(1) a {
+    background-position: 0 0;
+}
+
+.icons ul li:nth-child(2) a{
+    background-position: -312px -39px;
+}
+.icons ul li:hover:nth-child(2) a{
+    background-position: -312px 0px;
+}
+.icons ul li:nth-child(3) a{
+    background-position: -392px -39px;
+}
+.icons ul li:hover:nth-child(3) a{
+    background-position: -392px 0;
+}
+/*fb, twetter, youtube link end*/
+
+@media screen and (max-width: 575px) {
+    .go-top {
+        display: none;
+    }
+}
